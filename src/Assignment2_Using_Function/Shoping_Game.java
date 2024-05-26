@@ -15,27 +15,11 @@ public class Shoping_Game {
 	}
 	
 	public static void gameWinners(int M, int N) {
-		int turn = 1;
-		int ayushTotal = 0;
-		int harshitTotal = 0;
-		
-		while(true) {
-			if(turn % 2 != 0) {
-				ayushTotal += turn;
-				if(ayushTotal > M) {
-					System.out.println("Harshit");
-					break;
-				}
-			}
-			else {
-				harshitTotal += turn;
-				if(harshitTotal > N) {
-					System.out.println("Aayush");
-					break;
-				}
-			}
-			turn++;
-			
+		if(M>=N) {
+			System.out.println("Ayush");
+		}
+		else {
+			System.out.println("Harshit");
 		}
 	}
 

@@ -1,6 +1,6 @@
 package assignment03_Array;
 import java.util.*;
-public class Max_Valye_In_Array {
+public class Max_Value_In_Array {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

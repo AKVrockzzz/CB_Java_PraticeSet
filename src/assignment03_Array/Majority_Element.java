@@ -10,16 +10,22 @@ public class Majority_Element {
 		for(int i=0; i<arr.length; i++) {
 			arr[i] = sc.nextInt();
 		}
-		System.out.println(MajorityElement(arr));
+		int q = N/2;
+		System.out.println(MajorityElement(arr,q));
 	}
-	public static int MajorityElement(int[] arr) {
-		int element;
-		int count = 0;
-		for(int i=0; i<arr.length; i++) {
-			count++;
+	public static int MajorityElement(int[] arr, int q) {
+		int element = arr[0];
+		int count = 1;
+		for(int i=1; i<arr.length; i++) {
+			if(element == arr[i]) count++;
+			else {
+				count--;
+				if(count == 0) {
+					element = arr[i];
+					count++;
+				}
+			}
 		}
-		
-		element = count / 2;
 		return element;
 	}
 

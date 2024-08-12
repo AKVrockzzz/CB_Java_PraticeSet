@@ -1,8 +1,9 @@
 package Assignment_6_Recursion;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.Scanner;
 
-public class Dictionary_Order_Smaller {
+public class Dictionary_Order_Larger {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -24,7 +25,7 @@ public class Dictionary_Order_Smaller {
 		// TODO Auto-generated method stub
 		
 		if(ques.length() == 0) {
-			if(ans.compareTo(org) < 0) {
+			if(ans.compareTo(org) > 0) {
 
 				System.out.println(ans);
 			}

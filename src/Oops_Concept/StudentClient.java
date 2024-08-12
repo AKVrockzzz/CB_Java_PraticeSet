@@ -10,9 +10,16 @@ public class StudentClient {
 		s.age = 24;
 		System.out.println(s.name);
 		System.out.println(s.age);
-		s.name = "Ajay";
-		s.age = 23;
+		Student s1 = new Student();
+		s1.name = "Ajay";
+		s1.age = 23;
 		s.Intro_yourSelf();
+		s1.SayHey("Sachin");
+		s1.MentorName();
+	}
+	
+	static {
+		System.out.println("Static block in Main StudentClient Class");
 	}
 
 }

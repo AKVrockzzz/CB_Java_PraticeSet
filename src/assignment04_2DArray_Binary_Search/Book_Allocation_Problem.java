@@ -5,6 +5,6 @@ import java.util.Scanner;
 
 public class Book_Allocation_Problem {
 
-	-
+	
 
 }

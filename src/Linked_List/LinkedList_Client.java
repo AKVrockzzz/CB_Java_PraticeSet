@@ -25,6 +25,28 @@ public class LinkedList_Client {
 		ll.Display();
 		System.out.println(ll.removeAtIndex(4));
 		ll.Display();
+		
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		LinkedList_Implement llm = new LinkedList_Implement();
+		llm.AddFirst(10);
+		llm.AddFirst(20);
+		llm.AddFirst(30);
+		llm.AddFirst(40);
+		llm.AddLast(50);
+		llm.AddAtIndex(-90, 2);
+		llm.Display();
+		System.out.println(llm.getFirst());
+		System.out.println(llm.getLast());
+		System.out.println(llm.getAtIndex(2));
+		System.out.println();
+		llm.Display();
+		System.out.println(llm.removeFirst());
+		llm.Display();
+		System.out.println(llm.removeLast());
+		llm.Display();
+		
 	}
 
 }

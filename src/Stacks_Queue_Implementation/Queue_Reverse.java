@@ -1,6 +1,6 @@
 package Stacks_Queue_Implementation;
 
-public class Queue_Client {
+public class Queue_Reverse {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -10,7 +10,6 @@ public class Queue_Client {
 		q.Equeue(30);
 		q.Equeue(40);
 		q.Equeue(50);
-		q.Display();
 		
 	}
 

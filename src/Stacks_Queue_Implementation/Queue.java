@@ -41,4 +41,12 @@ public class Queue {
 	public boolean isfull() {
 		return size == arr.length;
 	}
+	
+	public void Display() {
+		for(int i=0; i<size; i++) {
+			int idx = (front + i) % arr.length;
+			System.out.print(arr[idx] + " ");
+		}
+		System.out.println();
+	}
 }
